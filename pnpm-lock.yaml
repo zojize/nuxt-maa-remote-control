@@ -63,10 +63,6 @@ catalogs:
     '@iconify-json/twemoji':
       specifier: ^1.2.2
       version: 1.2.2
-  server:
-    zod:
-      specifier: ^3.25.47
-      version: 3.25.47
 
 overrides:
   '@nuxt/devtools': ^2.5.0
@@ -78,10 +74,6 @@ overrides:
 importers:
 
   .:
-    dependencies:
-      zod:
-        specifier: catalog:server
-        version: 3.25.47
     devDependencies:
       '@antfu/eslint-config':
         specifier: catalog:dev
